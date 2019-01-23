@@ -10,7 +10,7 @@ class App extends React.Component{
         return (<div>
             {this.props.message}
             <button name="lButton"  onClick={()=>this.props.buttonClick('lButton')} value="lButton">Left Button</button>
-            <button name="rButton" onClick={() => this.props.buttonClick('rButton')} value="rButton">Right Button</button>
+            <button name="rButton" onClick={() => this.props.buttonClick('rButton')} value="rButton">Right Button New</button>
         </div>)
     }
 };
