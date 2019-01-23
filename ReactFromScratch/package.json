@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "clean": "rm -rf node_modules", 
+    "rebuild": "npm run clean && npm install && npm run build"
   },
   "author": "Gaurang",
   "license": "MIT",
